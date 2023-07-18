@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
     <!-- <link rel="stylesheet" href="{{url_for('static',filename='js/main.js')}}"> -->
     <!-- <link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap.min.css') }}"> -->
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+
 </head>
 <body>
     <!-- navbar -->
@@ -60,7 +62,7 @@
 
 
         <div class="gallery-item">
-            <div class="content"><img src="{{item}}" alt=""></div>
+            <div class="content"><img src="{{item}}" alt="img"></div>
         </div>
         {% endfor %}
     </div>

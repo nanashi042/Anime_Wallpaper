@@ -31,5 +31,3 @@ gallery.querySelectorAll('.gallery-item').forEach(function (item) {
     });
 });
 
-
-console.log("this is just a text msg ")
